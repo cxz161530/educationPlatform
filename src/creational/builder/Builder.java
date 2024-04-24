@@ -3,7 +3,7 @@ package creational.builder;
 public abstract class Builder {
     private UICourse course;
     public Builder(){
-        course = newUICourse;
+        course = new UICourse();
     }
 
     public abstract void createDescription();

@@ -11,9 +11,9 @@ public class UICourse {
         steps.add(description);
     }
     public void showCourse(){
-        System.out.println("\n User Interfact completed as below: ");
+        System.out.println("\n Course set up completed as below: ");
         for(int i=0; i<steps.size(); i++)
-            System.out.printf("Step &2d: %s\n", i+1, steps.get(i));
+            System.out.printf("Part %2d: %s\n", i+1, steps.get(i));
     }
 
 }
